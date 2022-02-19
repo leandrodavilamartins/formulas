@@ -1,16 +1,17 @@
 const iconRef = "../public/icon.svg"
+const navTitle = "Fórmulas"
 
-const template = `
+const navBar = `
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src=${iconRef} alt="" width="30" height="24" class="d-inline-block align-text-top">
-      Bootstrap
+      ${navTitle}
     </a>
   </div>
 </nav>
 `
 
-const el = document.getElementById('template');
-el.innerHTML = template;
+const el = document.getElementById('navBar');
+el.innerHTML = navBar;
 
